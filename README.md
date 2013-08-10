@@ -1,6 +1,9 @@
 # Mongoid Sequence
 
-Gemfile:
+mongoid 4.0 - seems ok.
+
+## Gemfile
+
 gem 'mongoid-sequence', github: "vzdor/mongoid_sequence2", require: 'mongoid_sequence2
 
 ## Usage
@@ -18,7 +21,7 @@ m1._id # => 1
 ```
 
 Or with Base62:
-```
+```ruby
 class Message
   include Mongoid::Document
   include Mongoid::Sequence
